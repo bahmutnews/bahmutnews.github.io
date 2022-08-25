@@ -1,0 +1,35 @@
+body {
+    background-image: url("images/background.png");
+    background-repeat:unset;
+    background-size:cover;
+}
+
+.logo {
+    content: url("images/cxs.png");
+    max-width:80%;
+    max-height:80%;
+    /* margin: auto;
+    padding: 50px; */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.telegram {
+    content: url("images/telegram.png");
+    max-width:30%;
+    max-height:30%;
+    /* margin: auto;
+    padding: 50px; */
+    position: absolute;
+    margin: auto;
+    object-fit: contain;
+    resize: none;
+    top: 600px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
